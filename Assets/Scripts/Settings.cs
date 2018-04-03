@@ -39,10 +39,7 @@ public class Settings : MonoBehaviour
     void Update()
     {      
         if (Volume != VolumeSlider.value)
-        {
             Volume = VolumeSlider.value;
-            Debug.Log("volume change");
-        }
         if (TextureQuality != (int) TextureSlider.value)
             TextureQuality = (int)TextureSlider.value;
 

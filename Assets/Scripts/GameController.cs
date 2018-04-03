@@ -7,7 +7,6 @@ public class GameController : MonoBehaviour
     public static GameController Instance
     {
         get { return _instance; }
-
     }
 
     private static GameController _instance = null;
